@@ -16,12 +16,6 @@ local colors = {
   context = "#6C6F93",
   light_gray = "#c8ccd4",
   tree_gray = "#1D1F27",
-  purple = "#B877DB",
-  cyan = "#25B2BC",
-  red = "#E95678",
-  orange = "#F09383",
-  yelloworange = "#FAB795",
-  yellow = "#FfffaA",
   folder_blue = "#6C6F93",
   cursor_fg = "#515052",
   cursor_bg = "#8E8F8D",
@@ -41,8 +35,6 @@ local colors = {
   info_bg = "#1e3132",
   hint_bg = "#252732",
   success_green = "#09F7A0",
-  purple_test = "#ff007c",
-  cyan_test = "#00dfff",
   ui_blue = "#214a63",
   ui2_blue = "#042E48",
   ui3_blue = "#0195F7",
@@ -53,6 +45,9 @@ local colors = {
   next_type = "#ff8080",
   next_field = "#4e9a06",
   next_parameter = "#ffa348",
+  next_yellow = "#FfffaA",
+  next_purple = "#B877DB",
+  next_cyan = "#09F7d0",
 }
 
 return colors
