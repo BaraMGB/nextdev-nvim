@@ -119,9 +119,9 @@ MoreMsg = 'next_type'
 Question = 'next_type'
 EndOfBuffer = 'bg'
 NonText = 'bg'
-TabLine = 'light_gray line'
-TabLineSel = 'fg line'
-TabLineFill = 'line line'
+TabLine = 'gray line'
+TabLineSel = 'fg warn_bg'
+TabLineFill = 'white line'
 
 [Code]
 Comment = 'gray - i'

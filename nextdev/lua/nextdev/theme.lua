@@ -61,9 +61,9 @@ theme.set_highlights = function()
   hl(0, "Question", { fg = c.next_type, bg = 'NONE' })
   hl(0, "EndOfBuffer", { fg = c.bg, bg = 'NONE' })
   hl(0, "NonText", { fg = c.bg, bg = 'NONE' })
-  hl(0, "TabLine", { fg = c.light_gray, bg = c.line })
-  hl(0, "TabLineSel", { fg = c.fg, bg = c.line })
-  hl(0, "TabLineFill", { fg = c.line, bg = c.line })
+  hl(0, "TabLine", { fg = c.gray, bg = c.line })
+  hl(0, "TabLineSel", { fg = c.fg, bg = c.warn_bg })
+  hl(0, "TabLineFill", { fg = c.white, bg = c.line })
 
   -- Code
   hl(0, "Comment", { fg = c.gray, bg = 'NONE', italic=true, })
